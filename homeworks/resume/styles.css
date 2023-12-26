@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.cv-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 5px 0;
+}
+
+.contact-info {
+  margin: 5px 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #3498db;
+}
+
+/* Stil için yeni bölümler */
+.skills ul,
+.projects ul,
+.languages ul {
+  padding-left: 20px;
+}
+
+.skills ul li,
+.projects ul li,
+.languages ul li {
+  margin-bottom: 5px;
+}
+
+.skills h2,
+.projects h2,
+.languages h2 {
+  color: #333;
+}
