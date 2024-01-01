@@ -1,6 +1,6 @@
 ## _SOLID_
 
-    SOLID, yazılım geliştirme prensiplerinin beşini ifade eden bir akronimdir. Bu prensipler, yazılımın tasarımı ve geliştirilmesi sürecinde daha esnek, sürdürülebilir ve bakımı kolay kodlar yazmayı teşvik eder. SOLID prensipleri, yazılım mühendisliği alanında daha iyi tasarlanmış ve yönetilebilir kodlar oluşturmak için kullanılır.
+SOLID, yazılım geliştirme prensiplerinin beşini ifade eden bir akronimdir. Bu prensipler, yazılımın tasarımı ve geliştirilmesi sürecinde daha esnek, sürdürülebilir ve bakımı kolay kodlar yazmayı teşvik eder. SOLID prensipleri, yazılım mühendisliği alanında daha iyi tasarlanmış ve yönetilebilir kodlar oluşturmak için kullanılır.
 
 ### Single Responsibility Principle (Tek Sorumluluk Prensibi - SRP):
 - Her sınıf veya modül bir ve sadece bir görev veya sorumluluk taşımalıdır. Bu prensip, bir sınıfın değişmesi gereken bir nedenin olması durumunda, değişikliğin sadece bir sorumluluğu etkilemesini sağlar.
@@ -20,4 +20,4 @@
 
 > Bu prensipler, yazılım geliştirme sürecinde kod kalitesini artırmayı, bakımı kolaylaştırmayı, esnekliği ve yeniden kullanılabilirliği teşvik etmeyi amaçlar. SOLID prensiplerinin uygulanması, kod karmaşıklığını azaltarak, daha sürdürülebilir, genişletilebilir ve daha güvenilir yazılım geliştirme süreçleri sağlar.
 
-![Image]https://miro.medium.com/v2/resize:fit:4800/format:webp/1*OzwARbvHUg1RlZ7LYyLCrg.png)
+![Image](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*OzwARbvHUg1RlZ7LYyLCrg.png)
