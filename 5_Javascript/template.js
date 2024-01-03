@@ -333,7 +333,7 @@ let setTimeoutAndIntervalFunction = () => {
 
     // 1 dakika sonra dursun.
     // setTimeout(): sadece 1 kere çalışır ve sonra durur.
-    60 * 60 * 24 * 365
+    // 60 * 60 * 24 * 365
     const time = parseInt(60);
     setTimeout(() => {
         clearInterval(intervalID);
@@ -354,31 +354,53 @@ const callBackFunction = () => {
 
     // 2.Function
     let ikinci = (xyz) => {
-        let userData2 = parseInt(prompt("Lütfen bir sayı giriniz"));
+        // let userData2 = parseInt(prompt("Lütfen bir sayı giriniz"));
         let userData3 = 25
-        const result = xyz(userData2);
+        const result = xyz(userData3);
         console.log(result);
     }
     ikinci(birinci);
 }
 callBackFunction()
 
-promise
-const promiseFunction = () => {
-    const isLogin = true;
-    const isCreated = 201;
-    let pro = new Promise((resolve, reject) => {
-        if (isLogin && isCreated == 201)
-            resolve("olumlu sonuç");
-        else
-            reject("olumsuz sonuç");
-    }).then(() => { // new Promise eğer sonuç geldiyse then çalışsın
-        console.log("Then");
-    }).catch(() => { // new Promise eğer sonuç olumsuzsa catch çalışsın
-        console.error("catch");
-    });
-    console.log(pro);
-}
-promiseFunction()
+// promise
+// const promiseFunction = () => {
+//     const isLogin = true;
+//     const isCreated = 201;
+//     let pro = new Promise((resolve, reject) => {
+//         if (isLogin && isCreated == 201)
+//             resolve("olumlu sonuç");
+//         else
+//             reject("olumsuz sonuç");
+//     }).then(() => { // new Promise eğer sonuç geldiyse then çalışsın
+//         console.log("Then");
+//     }).catch(() => { // new Promise eğer sonuç olumsuzsa catch çalışsın
+//         console.error("catch");
+//     });
+//     console.log(pro);
+// }
+// promiseFunction()
 
 /////////////////////////////////////////////////////////////
+//Diziler 
+// Rastgele 8 sayı üretmek için bir dizi oluştur
+function rastgeleSekizSayiUret() {
+    var dizi = [];
+    for (var i = 0; i < 8; i++) {
+        var rastgeleSayi = Math.floor(Math.random() * 9) + 1; // 1 ile 9 arasında rastgele sayı üret
+        dizi.push(rastgeleSayi); // Diziye rastgele sayıyı ekle
+        document.writeln(rastgeleSayi)
+    }
+    return dizi;
+}
+// Rastgele 8 sayı üret
+var rastgeleSekizSayilar = rastgeleSekizSayiUret();
+// Oluşturulan rastgele 8 sayıyı göster
+console.log(rastgeleSekizSayilar);
+
+let arrayFunction = () => {
+    let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9];
+    console.log(array)
+}
+
+arrayFunction()
