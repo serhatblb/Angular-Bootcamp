@@ -21,3 +21,5 @@
 let message = 'Hello world';
 alert(message);
 ```
+
+![Image]()
