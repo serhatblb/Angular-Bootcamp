@@ -4,6 +4,8 @@
   "description": "[GitHub] (https://github.com/serhatblb/Angular-Bootcamp)",
   "main": "tailwind.config.js",
   "scripts": {
+    "nodemon":"nodemon ./6_EcmaScript/template.js",
+    "nodemon_q":"nodemon -q ./6_EcmaScript/template.js",
     "watch": "npx tailwindcss -i ./src/input.css -o ./style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
